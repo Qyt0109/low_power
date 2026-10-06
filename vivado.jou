@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri Oct  2 16:09:19 2026
+# Process ID         : 3008188
+# Current directory  : /project/sovra/WORK/quyetdv
+# Command line       : vivado
+# Log file           : /project/sovra/WORK/quyetdv/vivado.log
+# Journal file       : /project/sovra/WORK/quyetdv/vivado.jou
+# Running On         : vsi-sandbox-01
+# Platform           : Rocky
+# Operating System   : Rocky Linux release 8.10 (Green Obsidian)
+# Processor Detail   : Intel(R) Xeon(R) Silver 4416+
+# CPU Frequency      : 2000.000 MHz
+# CPU Physical cores : 72
+# CPU Logical cores  : 72
+# Host memory        : 422112 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 426407 MB
+# Available Virtual  : 205107 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Vivado/project_wimax_turbo/project_wimax_turbo.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top wimax_turbo_dec [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+add_files {/home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/enc/wimax_turbo_enc_crsc.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/enc/wimax_turbo_enc.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/bank/wimax_turbo_dec_bank_cfg.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/enc/rate_80216/wimax_turbo_enc_rate_80216_sel.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/wimax_turbo_dec.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/siso/siso_ext.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/siso/siso.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/enc/wimax_turbo_enc_ram.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/wimax_turbo_dec_pkg.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/wimax_turbo_dec_wb.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/bank/wimax_turbo_dec_bank_mem.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/common/fxp_pkg.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/enc/wimax_turbo_enc_pack.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/enc/wimax_turbo_enc_pkg.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/enc/wimax_turbo_enc_ctrl.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/bank/wimax_turbo_dec_bank_addr.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/common/lifo_sync_fwft.v /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/common/delay_pipe.v /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/enc/rate_customer/wimax_turbo_enc_rate_customer.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/siso/siso_metric.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/enc/rate_80216/wimax_turbo_enc_rate_80216_pack.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/bank/wimax_turbo_dec_bank_pkg.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/wimax_turbo_dec_pull.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/bank/wimax_turbo_dec_bank_load.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/siso/siso_gamma.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/enc/rate_customer/wimax_turbo_enc_rate_customer_pack.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/enc/rate_80216/wimax_turbo_enc_rate_80216_pkg.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/enc/rate_80216/wimax_turbo_enc_rate_80216_sbaddr.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/rate_customer/wimax_turbo_dec_rate_customer.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/rate_customer/wimax_turbo_dec_load_rate_customer.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/enc/rate_80216/wimax_turbo_enc_rate_80216.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/wimax_turbo_dec_ctrl.sv /home/quyetdv/CODESTUFFS/turbo_wimax/Turbo_WiMAX/Source/rtl/dec/wimax_turbo_dec_load.sv}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 69
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 69
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 69
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 69
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 69
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 69
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 69
+wait_on_run impl_1
